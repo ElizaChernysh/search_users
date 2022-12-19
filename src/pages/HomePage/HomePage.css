@@ -1,0 +1,53 @@
+.HomePage {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.HomePage__error {
+  text-align: center;
+  color: tomato;
+  font-weight: 600;
+}
+
+.HomePage__search {
+  position: relative;
+  width: 560px;
+}
+
+.HomePage__input {
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 42px;
+  margin-bottom: 0.5rem;
+}
+
+.HomePage__drop {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: white;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+.Drop__loading {
+  text-align: center;
+}
+
+.Drop__user {
+  padding: 0.5rem, 1rem;
+}
+
+.Drop__user:hover {
+  background: gray;
+  color: white;
+  cursor: pointer;
+}

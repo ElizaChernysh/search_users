@@ -1,0 +1,13 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid black;
+  background-color: bisque;
+  font-weight: 900;
+}
+
+.Navigation__link:not(:last-child) {
+  margin-right: 20px;
+}
